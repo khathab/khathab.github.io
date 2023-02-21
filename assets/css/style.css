@@ -848,6 +848,13 @@ main {
   margin-bottom: 8px;
 }
 
+.framework {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8px;
+}
+
 .skill .title-wrapper data {
   color: var(--light-gray);
   font-size: var(--fs-7);
@@ -1593,8 +1600,24 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .modal-avatar-box img { width: 80px; }
 
+  .framework {
+    margin-top: 15px;
+  }
+  
+  .tools-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tools-item {
+    border: none;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+  }
 
-
+  
   /**
    * PORTFOLIO
    */
@@ -1880,3 +1903,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+
